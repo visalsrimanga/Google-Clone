@@ -68,7 +68,7 @@ header a:hover{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 282px;
+    /* width: 282px; */
     padding-left: 32px;
     padding-right: 4px;
 }
@@ -79,12 +79,16 @@ header a:hover{
     border-radius: 4px;
     padding: 9px 23px;
     margin-left: 8px;
-    /* margin-right: 8px; */
-    font-size: 14px;
+    margin-right: 8px;
+    /* width: 150px; */
+    cursor: pointer;
+}
+
+#sign-in>span{
     line-height: 16px;
+    font-size: 14px;
     color: white;
     font-weight: 500px;
-    cursor: pointer;
 }
 
 #sign-in:hover{
@@ -100,4 +104,175 @@ header a:hover{
 #sign-in:active{
     background-color: #1b63c1;
     box-shadow: 0 1px 3px 1px rgb(66 64 67 / 15%), 0 1px 2px 0 rgb(60 64 67 / 30%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#goole-image{
+    display: flex;
+    height: calc(100vh - 560px);
+    align-items: flex-end;
+    min-height: 150px;
+    max-height: 290px;
+}
+
+#goole-image>img{
+    height: 92px;
+}
+
+#search-form{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 582px;
+    height: 44px;
+    padding: 5px 8px 0 14px;
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 24px;
+}
+
+#search:hover, #search:active{
+    box-shadow:  0 1px 6px rgb(32 33 36 / 28%)
+}
+
+#search>input{
+    flex-grow: 1;
+    height: 34px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+#svg-search{
+    /* background-color: red; */
+    padding-right: 13px;
+}
+
+#svg-search svg{
+    width: 20px;
+    height: 20px;
+}
+
+#svg-voice{
+    /* background-color: blue; */
+    padding: 0 8px;
+}
+
+#svg-voice svg{
+    width: 24px;
+    height: 24px;
+}
+
+#navigation-buttons{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    width: 582px;
+    padding-top: 18px;
+}
+
+#navigation-buttons span{
+    display: block;
+}
+
+#navigation-buttons>.navigation-button{
+    border: 1px solid  rgb(248, 249, 250);
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 0 16px;
+    color: #4d5156; 
+    line-height: 27px;
+    font-size: 14px;
+    margin: 11px 4px;
+    cursor: pointer;
+    user-select: none;
+    forced-color-adjust: red;
+}
+
+#navigation-buttons>.navigation-button:hover{
+    border: 1px solid  rgb(218, 220, 224);
+    color: #202124;
+}
+
+#navigation-buttons>.navigation-button:focus{
+    border: 1px solid #4285f4;
+}
+
+#laguages{
+    display: flex;
+    height: 28px;
+}
+
+#laguages>span{
+    color: #4d5156;
+}
+
+#laguages span,a{
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 28px;
+    padding: 0 3px;
+}
+
+
+/* Footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#country {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    background-color: rgb(242, 242, 242);
+}
+
+#country span{
+    font-size: 15px;
+    color: #70757a;
+    
+}
+
+#footer-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(242, 242, 242);
+    padding: 0 20px;
+}
+
+#footer-navigation a{
+    padding: 15px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #70757a;
+}
+
+#footer-navigation a:hover{
+    text-decoration: underline;
+}
+
+#footer-navigation-1{
+    display: flex;
+    align-items: center;
+}
+
+#footer-navigation-2{
+    display: flex;
+    align-items: center;
 }
