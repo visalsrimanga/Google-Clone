@@ -269,10 +269,17 @@ footer{
 
 #footer-navigation-1{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 #footer-navigation-2{
+    display: flex;  
+    align-self: flex-start;
+}
+
+#footer-navigation-3{
     display: flex;
     align-items: center;
 }
