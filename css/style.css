@@ -47,7 +47,7 @@ header a:hover{
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    /* background-color: lightblue; */
+    cursor: pointer;
 }
 
 #apps:hover{
@@ -282,4 +282,19 @@ footer{
 #footer-navigation-3{
     display: flex;
     align-items: center;
+}
+
+
+/* aside */
+
+aside{
+    position: absolute;
+    width: 318px;
+    height: 438px;
+    background-color: red;
+    right: 10px;
+    top: 65px;
+    visibility: hidden;
+    padding-top: 10px;
+    padding-left: 14px;
 }
