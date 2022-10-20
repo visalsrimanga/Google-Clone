@@ -12,11 +12,11 @@ A HTML and CSS application clone of the google.com
 
 ### Installation
 
-1. Clone the repo `git clone https://github.com/visalsrimanga/BOC-Web-Clone.git`
+1. Clone the repo `git clone https://github.com/visalsrimanga/Google-Clone.git`
 
 ### Demo
 
-* [Click here](https://visalsrimanga.github.io/BOC-Web-Clone/) to see the demo website.
+* [Click here](https://visalsrimanga.github.io/Google-Clone/) to see the demo website.
 
 ### version
 1.0.0
