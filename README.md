@@ -1,10 +1,7 @@
 # Google Web Clone
-A HTML and CSS application clone of the google.com
+A web clone of google.com was created to practise my HTML and CSS skills. Here, pure HTML and CSS were used without frameworks and CSS flex and grid layouts were used. Search tab is linked with programmable search engine by google therfore, anything can be searched as in original web page. Also, gmail can be accessed through this web clone and other useful websites like google map, google drive, news are integrated with the web clone.
 
-* Welcome page
 ![plot](./img/welcome.png)
-* Search result page
-![plot](./img/search-result.png)
 
 ### Languages & Tools
 * HTML5
