@@ -1,5 +1,5 @@
 # Google Web Clone
-A web clone of google.com was created to practise my HTML and CSS skills. Here, pure HTML and CSS were used without frameworks and CSS flex and grid layouts were used. Search tab is linked with programmable search engine by google therfore, anything can be searched as in original web page. Also, gmail can be accessed through this web clone and other useful websites like google map, google drive, news are integrated with the web clone.
+A web clone of google.com was created to practise my HTML and CSS skills. Here, pure HTML and CSS were used without frameworks and CSS flex and grid layouts were used. Search tab is linked with programmable search engine by google therfore, anything can be searched as in original web page. Also, gmail can be accessed through this web clone and other useful websites like google map, google drive, news are integrated with the web clone. <br>
 
 ![plot](./img/welcome.png)
 
@@ -10,6 +10,7 @@ A web clone of google.com was created to practise my HTML and CSS skills. Here, 
 ### Installation
 
 1. Clone the repo `git clone https://github.com/visalsrimanga/Google-Clone.git`
+2. Open the file from vscode. 
 
 ### Demo
 
